@@ -1,0 +1,9 @@
+# 比赛现场参数登记表。启动时可通过 map:= 和 params:= 覆盖。
+# 当前默认使用仓库自带 WHEELTEC 地图和麦克纳姆轮参数。
+robot_model: mini_mec
+map_name: WHEELTEC.yaml
+nav_params: param_mini_mec.yaml
+aruco_marker_id: 582
+aruco_marker_size_m: 0.10
+camera_image_topic: /camera/color/image_raw
+camera_info_topic: /camera/color/camera_info

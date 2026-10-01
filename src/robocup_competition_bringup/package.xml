@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>robocup_competition_bringup</name>
+  <version>0.1.0</version>
+  <description>现场启动用的 RoboCup 家庭组 ROS2 比赛系统入口</description>
+  <maintainer email="team@example.com">RoboCup Team</maintainer>
+  <license>Apache-2.0</license>
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <exec_depend>launch</exec_depend>
+  <exec_depend>launch_ros</exec_depend>
+  <exec_depend>turn_on_wheeltec_robot</exec_depend>
+  <exec_depend>wheeltec_nav2</exec_depend>
+  <exec_depend>aruco_ros</exec_depend>
+  <exec_depend>tts</exec_depend>
+  <exec_depend>tf2_ros</exec_depend>
+  <exec_depend>sensor_msgs</exec_depend>
+  <export><build_type>ament_cmake</build_type></export>
+</package>

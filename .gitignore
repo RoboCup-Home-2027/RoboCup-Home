@@ -1,0 +1,15 @@
+build/
+install/
+log/
+__pycache__/
+*.pyc
+*.bag
+*.db3
+bags/
+.env
+
+# ROS2 runtime and editor outputs
+.ros/
+*.log
+.vscode/
+*.swp
