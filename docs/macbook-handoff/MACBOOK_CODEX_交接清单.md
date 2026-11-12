@@ -169,7 +169,7 @@ ls /dev/ttyUSB* /dev/ttyACM* 2>/dev/null
 source /opt/ros/humble/setup.bash
 source /home/wheeltec/wheeltec_ros2/install/setup.bash
 ros2 pkg prefix turn_on_wheeltec_robot
-ros2 pkg prefix wheeltec_robot_nav2
+ros2 pkg prefix wheeltec_nav2
 ros2 node list
 ros2 topic list
 ```
